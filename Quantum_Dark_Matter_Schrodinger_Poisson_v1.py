@@ -96,9 +96,9 @@ from scipy.optimize import minimize
 
 
 CSV_PATHS = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87_loto_2978.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87_loto_plus_1734.csv"),
+    Path("/data/loto7_4712_k87.csv"),
+    Path("/data/loto7_4712_k87_loto_2978.csv"),
+    Path("/data/loto7_4712_k87_loto_plus_1734.csv"),
 )
 
 
@@ -2193,7 +2193,7 @@ NEXT pretraga: 12,058,624/15,380,937 | proteklo: 5.2 s
 NEXT pretraga: 14,024,704/15,380,937 | proteklo: 6.0 s
 
 loto7_4712_k87.csv
-NEXT: 2 3 14 17 19 26 34
+NEXT: 2 x 14 y 19 z 34
 Dinamika: SP_C
 Validacioni NLL: 18.272442530
 Odvojeni test NLL: 18.510931827
@@ -2322,7 +2322,7 @@ NEXT pretraga: 12,058,624/15,380,937 | proteklo: 5.2 s
 NEXT pretraga: 14,024,704/15,380,937 | proteklo: 6.1 s
 
 loto7_4712_k87_loto_2978.csv
-NEXT: 8 10 19 24 29 30 34
+NEXT: 8 x 19 y 29 z 34
 Dinamika: SP_C
 Validacioni NLL: 18.295748235
 Odvojeni test NLL: 18.476708429
@@ -2447,7 +2447,7 @@ NEXT pretraga: 12,058,624/15,380,937 | proteklo: 5.2 s
 NEXT pretraga: 14,024,704/15,380,937 | proteklo: 6.1 s
 
 loto7_4712_k87_loto_plus_1734.csv
-NEXT: 4 6 15 16 19 20 27
+NEXT: 4 x 15 y 19 z 27
 Dinamika: SP_C
 Validacioni NLL: 18.507228736
 Odvojeni test NLL: 18.361535687
@@ -2467,11 +2467,11 @@ Presek sa kolom unazad 3: 2/7
 Dijagnostika ne menja NEXT i ne potvrdjuje prediktivni kvalitet.
 
 ZAVRSNI NEXT REZULTATI
-loto7_4712_k87.csv | NEXT: 2 3 14 17 19 26 34 | dinamika: SP_C | test NLL: 18.510931827
+loto7_4712_k87.csv | NEXT: 2 x 14 y 19 z 34 | dinamika: SP_C | test NLL: 18.510931827
 Status: optimizator prijavio konvergenciju izabranog kandidata | Max|grad|: 8.883239e-08 | Max|projektovanigrad|: 8.883239e-08
-loto7_4712_k87_loto_2978.csv | NEXT: 8 10 19 24 29 30 34 | dinamika: SP_C | test NLL: 18.476708429
+loto7_4712_k87_loto_2978.csv | NEXT: 8 x 19 y 29 z 34 | dinamika: SP_C | test NLL: 18.476708429
 Status: optimizator prijavio konvergenciju izabranog kandidata | Max|grad|: 9.230199e-07 | Max|projektovanigrad|: 9.230199e-07
-loto7_4712_k87_loto_plus_1734.csv | NEXT: 4 6 15 16 19 20 27 | dinamika: SP_C | test NLL: 18.361535687
+loto7_4712_k87_loto_plus_1734.csv | NEXT: 4 x 15 y 19 z 27 | dinamika: SP_C | test NLL: 18.361535687
 Status: optimizator prijavio konvergenciju izabranog kandidata | Max|grad|: 9.098591e-07 | Max|projektovanigrad|: 9.098591e-07
 """
 
